@@ -44,14 +44,35 @@ For each participant, we will execute the following steps.
 
 The participant is introduced to the project with a general overview of the different packages to gain an overall idea of the architecture and an overall introduction to the development practices related to pull requests, like naming conventions, etc.
 
-#### Step 1: Ranking of the different PRs
+#### Step 1: Manually ranking of the different PRs
 
-We ask the participant to prioritize the different PRs without the help of the plugin. The goal is to compare the ranking offered by the formula that prioritizes the PRs in the plugin and a manual prioritization done by developers. 
+We ask the participant if we can record the screen and the audio. We start the recording and ask the participant again if they agree to be recorded.
 
-For that, we give the participant 20 minutes maximum to familiarize themselves with the different pull requests before asking them to rank them in a think-aloud session. The rationale for having some time pressure is to force the participant to have a strategy to rapidly assess the pull requests. After the ranking, we ask the participant how confident they are in their answer using a standard Likert scale and if they have any other comments they want to share.
+The goal is to compare the ranking offered by the formula that prioritizes the PRs in the plugin and a manual prioritization done by developers. 
 
+We ask the participant to prioritize the different PRs without the help of the plugin. For that, we give the participant 20 minutes maximum to familiarize themselves with the different pull requests before asking them to rank them in a think-aloud session. The rationale for having some time pressure is to force the participant to have a strategy to rapidly assess the pull requests. After the ranking, we ask the participant how confident they are in their answer using a standard Likert scale and if they have any other comments they want to share.
 
+#### Step 2: Comparison with the automated ranking
 
+We ask the participant to install the plugin in VSCode and open the project. The list of ranked PRs is presented. We ask the participant if they agree with that ranking. For the PRs that are ranked farther from the participant's ranking of step 1, we ask the participant's opinion.
+
+#### Step 3: Evaluation of the complexity overview
+
+We select one PR that the participant considered as complex and ask them to comment on the relevance of the radar chart and measurements: 
+
+  - To what extent do you find that the visualization proposed by the plugin informs you about the complexity of the PR?
+  - To what extent do you find that the visualization proposed by the plugin is consistent with the complexity of the PR?
+
+We select one PR that the participant considered as simple and ask them to comment on the relevance of the radar chart and measurements: 
+
+  - To what extent do you find that the visualization proposed by the plugin informs you about the complexity of the PR?
+  - To what extent do you find that the visualization proposed by the plugin is consistent with the complexity of the PR?
+
+We repeat the previous questions with one PR that the ranking algorithm considered as complex and one PR that the ranking algorithm considered as simple.
+
+#### Step 4: UEQ and closing questionnaire
+
+We ask the participant to fill in the standard UEQ. Then we ask the additional questions from the questionnaire *[to complete]*.
 
 
 
