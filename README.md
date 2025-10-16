@@ -5,12 +5,12 @@ The plugin aims to help developers select pull requests to evaluate depending on
   1. Its ability to represent the difficulty of a Pull Request (PR).
   2. Its ability to sort PRs based on their estimated complexity.
 
-## Evaluation setup 
+## Evaluation setup
 
 The evaluation will be based on two complementary approaches:  
 
-  - Qualitative methods: open-ended questions and Think Aloud sessions.
-  - Quantitative methods: use of the UEQ (User Experience Questionnaire) evaluation + multiple-choice questionnaire (standard Likert scales).
+- Qualitative methods: open-ended questions and Think Aloud sessions.
+- Quantitative methods: use of the UEQ (User Experience Questionnaire) evaluation + multiple-choice questionnaire (standard Likert scales).
 
 ### Population
 
@@ -48,7 +48,7 @@ The participant is introduced to the project with a general overview of the diff
 
 We ask the participant if we can record the screen and the audio. We start the recording and ask the participant again if they agree to be recorded.
 
-The goal is to compare the ranking offered by the formula that prioritizes the PRs in the plugin and a manual prioritization done by developers. 
+The goal is to compare the ranking offered by the formula that prioritizes the PRs in the plugin and a manual prioritization done by developers.
 
 We ask the participant to prioritize the different PRs without the help of the plugin. For that, we give the participant 20 minutes maximum to familiarize themselves with the different pull requests before asking them to rank them in a think-aloud session. The rationale for having some time pressure is to force the participant to have a strategy to rapidly assess the pull requests. After the ranking, we ask the participant how confident they are in their answer using a standard Likert scale and if they have any other comments they want to share.
 
@@ -58,21 +58,29 @@ We ask the participant to install the plugin in VSCode and open the project. The
 
 #### Step 3: Evaluation of the complexity overview
 
-We select one PR that the participant considered as complex and ask them to comment on the relevance of the radar chart and measurements: 
+We select one PR that the participant considered as complex and ask them to comment on the relevance of the radar chart and measurements:
 
-  - To what extent do you find that the visualization proposed by the plugin informs you about the complexity of the PR?
-  - To what extent do you find that the visualization proposed by the plugin is consistent with the complexity of the PR?
+- To what extent do you find that the visualization proposed by the plugin informs you about the complexity of the PR?
+- To what extent do you find that the visualization proposed by the plugin is consistent with the complexity of the PR?
 
-We select one PR that the participant considered as simple and ask them to comment on the relevance of the radar chart and measurements: 
+We select one PR that the participant considered as simple and ask them to comment on the relevance of the radar chart and measurements:
 
-  - To what extent do you find that the visualization proposed by the plugin informs you about the complexity of the PR?
-  - To what extent do you find that the visualization proposed by the plugin is consistent with the complexity of the PR?
+- To what extent do you find that the visualization proposed by the plugin informs you about the complexity of the PR?
+- To what extent do you find that the visualization proposed by the plugin is consistent with the complexity of the PR?
 
 We repeat the previous questions with one PR that the ranking algorithm considered as complex and one PR that the ranking algorithm considered as simple.
 
 #### Step 4: UEQ and closing questionnaire
 
-We ask the participant to fill in the standard UEQ. Then we ask the additional questions from the questionnaire *[to complete]*.
+We ask the participant to fill in the standard [UEQ](/UEQ/). Then we ask the following additional questions:
 
-
-
+1. How would you rate your overall experience with the plugin? (1 = Very Poor, 5 = Excellent)
+2. How easy was the plugin to understand? (1 = Very Difficult, 5 = Very Easy)
+3. To what extent does the plugin accurately represent the complexity of a PR? (1 = Not at all, 5 = Completely)
+4. To what extent do you think the plugin adds real value when selecting a PR? (1 = Not at all, 5 = A great deal)
+5. How likely are you to use the plugin regularly in your work? (1 = Not at all likely, 5 = Extremely likely)
+6. In your opinion, what is the main strength of the plugin?
+7. In your opinion, what is the main weakness of the plugin?
+8. Did you find any metrics in the radar unnecessary or not relevant?
+9. In your opinion, which metric should be added to the radar?
+10. If you could change one thing about the plugin, what would it be?
