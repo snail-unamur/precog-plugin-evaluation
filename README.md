@@ -1,4 +1,4 @@
-# Pull Request Priorization and Visualization: Evaluation
+# Pull REquest Charts for an Objective Gauging (PRECOG): Evaluation
 
 The plugin aims to help developers select pull requests to evaluate depending on different factors. The objective of this first evaluation is to investigate the following dimensions for the plugin:
 
