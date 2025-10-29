@@ -14,7 +14,7 @@ Please follow these instructions to install the PRECOG plugin in VSCode
 ## Manual installation of the PRECOG plugin
 
 ### Download of the plugin
-1. Download the plugin: [vscode-precog.vsix](vscode-precog-0.118.0.vsix).
+1. Download the plugin: [vscode-precog.vsix](vscode-pull-request-github-0.118.0.vsix).
 
 ### Installation of the plugin in VS Code
 1. In VS Code, click on the **gear icon** ⚙️ (bottom-left corner).
