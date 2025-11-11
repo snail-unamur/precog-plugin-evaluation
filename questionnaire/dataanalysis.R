@@ -34,10 +34,11 @@ results %>%
   guides(fill = guide_legend(title = NULL)) +
   scale_fill_brewer(palette = "RdYlGn", name = "Note", drop = FALSE) +
   scale_x_continuous(limits = c(0, 9), breaks = 0:9) +
+  theme(axis.text.y = element_text(size = 11)) +
   ylab(NULL) +
   xlab(NULL)
 
-ggsave("plots/finalquestions.pdf", width = 23, height = 5, units = "cm")
+ggsave("plots/finalquestions.pdf", width = 20, height = 5.5, units = "cm")
 
 # --------------------------------------------
 # Sankey diagram with the rankings
